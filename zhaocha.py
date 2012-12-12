@@ -123,7 +123,7 @@ def test(para):
 
 
             
-from arbin import hotkey
+import hotkey
 
 hotkey.reg(2,49,lambda :test(para1))
 hotkey.reg(2,50,lambda :test(para2))
